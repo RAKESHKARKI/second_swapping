@@ -1,0 +1,27 @@
+ package JavaTutorial;
+
+public class JavaTutorial {
+
+		// TODO Auto-generated method stub
+		
+			public static void main(String[]args) {
+				int a = 1;
+				int b = 2;
+				int c = 3;
+				int d = 4;
+
+				//swapping between a to  b, b to c, c to d that gives a=2, b=3,c=4 and d=1.
+				 int temp =0;
+				 temp=a;
+				 a=b;
+				 b=c;
+				 c=d;
+				 d=temp;
+				 
+				 System.out.println("After Swapping");
+					System.out.println("a:"+a+" b:"+b+" c:"+c+" d:"+temp+"");
+			
+		
+	}
+
+}
